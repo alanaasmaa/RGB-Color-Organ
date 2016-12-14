@@ -1,5 +1,9 @@
 # RGB-Color-Organ
 
+OrganV1 Works
+OrganV2 Crashing
+OrganV3 Coming soon.
+
 Used this as android base:
 http://www.instructables.com/id/Android-Bluetooth-Control-LED-Part-2/
 

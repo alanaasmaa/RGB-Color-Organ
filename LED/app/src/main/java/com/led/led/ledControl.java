@@ -152,7 +152,7 @@ public class ledControl extends ActionBarActivity {
         {
             try
             {
-                btSocket.getOutputStream().write("0".toString().getBytes());
+                btSocket.getOutputStream().write("Off".toString().getBytes());
             }
             catch (IOException e)
             {
@@ -167,7 +167,7 @@ public class ledControl extends ActionBarActivity {
         {
             try
             {
-                btSocket.getOutputStream().write("1".toString().getBytes());
+                btSocket.getOutputStream().write("Music".toString().getBytes());
             }
             catch (IOException e)
             {
@@ -182,7 +182,7 @@ public class ledControl extends ActionBarActivity {
         {
             try
             {
-                btSocket.getOutputStream().write("2".toString().getBytes());
+                btSocket.getOutputStream().write("Still".toString().getBytes());
             }
             catch (IOException e)
             {
@@ -197,7 +197,7 @@ public class ledControl extends ActionBarActivity {
         {
             try
             {
-                btSocket.getOutputStream().write("3".toString().getBytes());
+                btSocket.getOutputStream().write("Random".toString().getBytes());
             }
             catch (IOException e)
             {
